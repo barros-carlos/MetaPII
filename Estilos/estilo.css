@@ -1,0 +1,55 @@
+:root{
+    /*Cores do aplicativo*/
+    --amarelo: #FECD1E;
+    --amarelo-hover: #ddad00;
+    --cinza-escuro: #3E3B36;
+    --branco-fumaca: #F5F5F5;
+    --preto: #020202;
+}
+body{
+    font-size: 16px;
+    font-family: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+}
+#navbar{
+    height: 70px;
+    background-color: #FECD1E;
+}
+#imagem-logo{
+    height: 50px;
+}
+#inicio, #comunidade, #sobre-nos{
+    font-weight: 400;
+    text-decoration: none;
+    text-decoration-line: none;
+    color: var(--cinza-escuro);
+    padding: 5px;
+    transition: 0.5s;
+}
+#inicio:hover, #comunidade:hover, #sobre-nos:hover{
+    background-color: var(--amarelo-hover);
+    color: var(--branco-fumaca);
+    border-radius: 5px;
+}
+#botao-cadastrar{
+    background-color: #0000;
+    color: var(--cinza-escuro);
+    padding: 5px 10px;
+    border: solid 2px var(--cinza-escuro);
+    border-radius: 5px;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+#botao-logar{
+    background-color: var(--cinza-escuro);
+    color: var(--amarelo);
+    padding: 5px 10px;
+    border: solid 2px var(--cinza-escuro);
+    border-radius: 5px;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+#botao-logar:hover, #botao-cadastrar:hover{
+    box-shadow: 0 0 0 7px var(--branco-fumaca) ;
+}
