@@ -1,4 +1,4 @@
-:root{
+:root {
     /*Cores do aplicativo*/
     --amarelo: #FECD1E;
     --amarelo-hover: #ddad00;
@@ -7,18 +7,24 @@
     --preto: #020202;
     --preto-opacidade: #020202DD;
 }
-body{
+
+body {
     font-size: 16px;
     font-family: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
     color: var(--cinza-escuro);
 }
-#navbar{
+
+#navbar {
     background-color: #FECD1E;
 }
-#imagem-logo{
+
+#imagem-logo {
     height: 50px;
 }
-#inicio, #comunidade, #sobre-nos{
+
+#inicio,
+#comunidade,
+#sobre-nos {
     font-weight: 400;
     text-decoration: none;
     text-decoration-line: none;
@@ -26,12 +32,16 @@ body{
     padding: 5px;
     transition: 0.5s;
 }
-#inicio:hover, #comunidade:hover, #sobre-nos:hover{
+
+#inicio:hover,
+#comunidade:hover,
+#sobre-nos:hover {
     background-color: var(--amarelo-hover);
     color: var(--branco-fumaca);
     border-radius: 5px;
 }
-#botao-cadastrar{
+
+#botao-cadastrar {
     background-color: #0000;
     width: 100px;
     color: var(--cinza-escuro);
@@ -42,7 +52,7 @@ body{
     transition: 0.5s;
 }
 
-#botao-logar{
+#botao-logar {
     background-color: var(--cinza-escuro);
     width: 100px;
     color: var(--amarelo);
@@ -53,8 +63,9 @@ body{
     transition: 0.5s;
 }
 
-#botao-logar:hover, #botao-cadastrar:hover{
-    box-shadow: 0 0 0 7px var(--branco-fumaca) ;
+#botao-logar:hover,
+#botao-cadastrar:hover {
+    box-shadow: 0 0 0 7px var(--branco-fumaca);
 }
 
 #banner-corpo {
@@ -64,9 +75,16 @@ body{
     background-size: cover;
     height: 300px;
 }
-#banner-texto {
+
+#banner-titulo {
+    color: var(--branco-fumaca);
+    font-size: 40px;
+    font-weight: 600;
+}
+#banner-subtitulo {
     color: var(--branco-fumaca);
     font-size: 30px;
+    font-weight: 100;
 }
 
 #card-site {
@@ -76,12 +94,23 @@ body{
     background-color: var(--cinza-escuro);
     color: var(--branco-fumaca);
 }
+
 #imagem-card {
     height: 220px;
     width: 398px;
 }
+
 #conteudo-card {
     height: 100px;
+}
+
+#botao-comunidade{
+    background-color: var(--amarelo);
+    color: var(--cinza-escuro);
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .rodape {
