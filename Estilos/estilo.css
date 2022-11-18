@@ -5,6 +5,7 @@
     --cinza-escuro: #3E3B36;
     --branco-fumaca: #F5F5F5;
     --preto: #020202;
+    --preto-opacidade: #020202DD;
 }
 body{
     font-size: 16px;
@@ -12,7 +13,6 @@ body{
     color: var(--cinza-escuro);
 }
 #navbar{
-    height: 70px;
     background-color: #FECD1E;
 }
 #imagem-logo{
@@ -33,6 +33,7 @@ body{
 }
 #botao-cadastrar{
     background-color: #0000;
+    width: 100px;
     color: var(--cinza-escuro);
     padding: 5px 10px;
     border: solid 2px var(--cinza-escuro);
@@ -43,6 +44,7 @@ body{
 
 #botao-logar{
     background-color: var(--cinza-escuro);
+    width: 100px;
     color: var(--amarelo);
     padding: 5px 10px;
     border: solid 2px var(--cinza-escuro);
@@ -56,11 +58,15 @@ body{
 }
 
 #banner-corpo {
-    background-image: url("../Imagens/download.jpg");
+    background-image: url("../Imagens/banner_homepage.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
+}
+#banner-texto {
+    color: var(--branco-fumaca);
+    font-size: 30px;
 }
 
 #card-site {
