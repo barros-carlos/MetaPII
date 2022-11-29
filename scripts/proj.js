@@ -1,4 +1,4 @@
-[
+const data = [
     {
         "username": "BelleDoce",
         "nome": "BelleDoce",
@@ -31,7 +31,7 @@
         "sinopse": "#GoTigers",
         "descricao": "Projeto desenvolvido com o objetivo de facilitar as inscrições e maior reconhecimento da entidade Mauá Esports",
         "integrantes": ["Débora Witkowski", "Guilherme Ruiz da Silva", "Leonardo Cazotto Stuber", "Lucas Machado da Costa Pennone", "Rafael Ruiz da Silva"],
-        "cor-destaque": "linear-gradient(to bottom, #050d21, #081d3d, #0c244b)",
+        "cor-destaque": "#081D3D",
         "cor-texto": "#FFF",
         "imagens": ["https://cdn.discordapp.com/attachments/789238474833788938/1047171864583209141/mauaesports2.PNG",
             "https://cdn.discordapp.com/attachments/789238474833788938/1047171865002651720/mauaesports1.png",
@@ -41,3 +41,10 @@
         "views": 0
     }
 ]
+
+const params = new URLSearchParams(window.location.search);
+const username = params.get('username');
+
+function localizarJSONSite(username){
+
+}
