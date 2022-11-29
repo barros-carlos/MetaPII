@@ -121,11 +121,11 @@ function comunidadeContrutorPrincipais() {
     let div = document.querySelector(`#conteudo-corpo`)
     var i = 0;
     data.sort(sorteadorDados('username')).forEach( site => {
-        i++;
-        if (i > 12){
-            return 0;   
-        }
-        console.log(i)
+        // i++;
+        // if (i > 12){
+        //     return 0;   
+        // }
+        // console.log(i)
 
         // contrutor do card
         let card = document.createElement("div")
