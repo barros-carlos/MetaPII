@@ -78,13 +78,10 @@ body {
 
 #banner-titulo {
     color: var(--branco-fumaca);
-    font-size: 40px;
-    font-weight: 600;
+
 }
 #banner-subtitulo {
     color: var(--branco-fumaca);
-    font-size: 30px;
-    font-weight: 100;
 }
 
 #card-site {
