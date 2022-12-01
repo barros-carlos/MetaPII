@@ -41,12 +41,28 @@ body {
     border-radius: 5px;
 }
 
+#grupo-pesquisa {
+    border: solid 2px var(--amarelo-hover);
+    border-radius: 25px;
+}
+#input-pesquisa{
+    border-radius: 25px 0 0 25px;
+    background-color: var(--amarelo);
+    border: 0;
+    color: var(--preto);
+}
+#input-pesquisa::placeholder{
+    color: var(--cinza-escuro);
+    font-weight: 600;
+}
+
+
 #botao-cadastrar {
     background-color: #0000;
     width: 100px;
     color: var(--cinza-escuro);
     padding: 5px 10px;
-    border: solid 2px var(--cinza-escuro);
+
     border-radius: 5px;
     font-weight: 800;
     transition: 0.5s;

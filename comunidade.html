@@ -46,8 +46,16 @@
                     href="comunidade.html">Comunidade</a>
                 <a id="sobre-nos" class="nav-link active mx-3 py-2" aria-current="page" href="sobre-nos.html">Sobre
                     nós</a>
-                <button id="botao-cadastrar" class="nav-link mx-2 ms-md-auto my-2">Cadastrar</button>
-                <button id="botao-logar" class=" nav-link mx-2 my-2 ">Logar</button>
+                <form class="form-inline ms-md-auto">
+                    <div id="grupo-pesquisa" class="input-group">
+                        <input id="input-pesquisa" type="text" class="form-control" placeholder="Pesquisar projeto"
+                            aria-label="proj" aria-describedby="basic-addon1">
+                        <button class="btn" onclick="pesquisaPagina()">
+                            <img width="20" height="20"
+                                src="https://cdn.iconscout.com/icon/free/png-256/search-1364-458863.png"></img>
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </nav>

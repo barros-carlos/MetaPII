@@ -5,6 +5,10 @@ function localizarJSONSite(username) {
     site = data.filter(site => site.username == username)
     return site[0]
 }
+function pesquisaPagina(){
+    site = document.querySelector(`#input-pesquisa`)
+    window.open("proj.html?username="+site.value)
+}
 
 function projConstrutorSite() {
     site = localizarJSONSite(usernameGet)

@@ -1,3 +1,4 @@
+
 data = [
     {
         "username": "BelleDoce",
@@ -146,6 +147,23 @@ data = [
         "cor-destaque": "#292E33",
         "cor-texto": "#FFF",
         "imagens": ['Findly1.png', 'Findly2.png'],
+        "views": 0
+    },
+    {
+        "username": "metapii",
+        "nome": "Meta PII",
+        "sinopse": "Projeto de projetos",
+        "descricao": "Projeto que tem o objetivo de unificar os sites dos projetos integradores interdisciplinares.<br> Com o objetivo de mostrar para qualquer um que visitar o site para ver como ficou os projetos.",
+        "integrantes": ['Bruno Teruya',
+            'Carlos Barros',
+            'Eduardo Cunha',
+            'Gabriel Renault',
+            'Gustavo Hiromoto',
+            'Lucas Machado'
+        ],
+        "cor-destaque": "#",
+        "cor-texto": "#",
+        "imagens": ['.png', '.png'],
         "views": 0
     }
 ]
