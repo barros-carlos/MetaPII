@@ -1,8 +1,8 @@
-function sorteadorDados(prop) {
+function sorteadorDados() {
     return function (a, b) {
-        if (a[prop] > b[prop]) {
+        if (a.nome > b.nome) {
             return 1;
-        } else if (a[prop] < b[prop]) {
+        } else if (a.nome < b.nome) {
             return -1;
         }
         return 0;
@@ -12,7 +12,7 @@ function sorteadorDados(prop) {
 function comunidadeContrutorPrincipais() {
     let div = document.querySelector(`#conteudo-corpo`)
     var i = 0;
-    data.sort(sorteadorDados('username')).forEach( site => {
+    data.sort(sorteadorDados()).forEach( site => {
         // contrutor do card
         let card = document.createElement("div")
         card.setAttribute('id', 'card-site')
