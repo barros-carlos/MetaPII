@@ -14,11 +14,14 @@ function comunidadeContrutorPrincipais() {
     var i = 0;
     data.sort(sorteadorDados()).forEach( site => {
         // contrutor do card
-        let card = document.createElement("div")
+        // trocado de div para a por acessibilidade
+        let card = document.createElement("a")
         card.setAttribute('id', 'card-site')
         card.setAttribute('class', 'card col-4 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xll-4 m-2')
-        card.setAttribute('onClick', 'window.open("proj.html?username='+site.username+'", "_self")')
-        card.setAttribute('style', 'cursor: pointer;')
+        card.setAttribute('href','proj.html?username='+site.username)
+        card.setAttribute('style', 'text-decoration: none;')
+        //card.setAttribute('onClick', 'window.open("proj.html?username='+site.username+'", "_self")')
+        //card.setAttribute('style', 'cursor: pointer;')
         // contrutor da imagem
         let imagem = document.createElement("img")
         imagem.setAttribute('class', 'card-img-top')
