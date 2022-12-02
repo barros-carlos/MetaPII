@@ -32,7 +32,7 @@ data = [
         ],
         "cor-destaque": "#000000",
         "cor-texto": "#FFFFFF",
-        "imagens": ['maonaroda1.png', 'maonaroda2.png', 'maonaroda3.png', 'maonaroda4.png'],
+        "imagens": ['maonaroda2.png', 'maonaroda3.png', 'maonaroda4.png'],
         "views": 0
     },
     {
