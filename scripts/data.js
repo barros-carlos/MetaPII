@@ -1,3 +1,7 @@
+function pesquisaPagina(){
+    site = document.querySelector(`#input-pesquisa`)
+    window.open("pesquisa.html?username="+site.value)
+}
 
 data = [
     {
@@ -161,9 +165,9 @@ data = [
             'Gustavo Hiromoto',
             'Lucas Machado'
         ],
-        "cor-destaque": "#",
-        "cor-texto": "#",
-        "imagens": ['.png', '.png'],
+        "cor-destaque": "#FECD1E",
+        "cor-texto": "#020202",
+        "imagens": ['metapii1.png', 'metapii2.png', 'metapii3.png', 'metapii4.png'],
         "views": 0
     }
 ]

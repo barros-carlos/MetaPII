@@ -8,10 +8,7 @@ function sorteadorDados(prop) {
         return 0;
     }
 }
-function pesquisaPagina(){
-    site = document.querySelector(`#input-pesquisa`)
-    window.open("proj.html?username="+site.value)
-}
+
 function indexContrutorPrincipais() {
     let div = document.querySelector(`#conteudo-corpo`)
     data.sort(sorteadorDados('views')).reverse()
