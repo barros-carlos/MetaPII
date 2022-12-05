@@ -52,10 +52,11 @@
                 <button id="botao-logar" class=" nav-link mx-2 my-2 ">Logar</button> -->
                 <form class="form-inline ms-md-auto">
                     <div id="grupo-pesquisa" class="input-group">
-                        <input  id="input-pesquisa" type="text" class="form-control" placeholder="Pesquisar projeto" aria-label="proj"
-                            aria-describedby="basic-addon1">
+                        <input id="input-pesquisa" type="text" class="form-control" placeholder="Pesquisar projeto"
+                            aria-label="proj" aria-describedby="basic-addon1">
                         <button class="btn" onclick="pesquisaPagina()">
-                            <img width="20" height="20" src="https://cdn.iconscout.com/icon/free/png-256/search-1364-458863.png"></img>
+                            <img width="20" height="20"
+                                src="https://cdn.iconscout.com/icon/free/png-256/search-1364-458863.png"></img>
                         </button>
                     </div>
                 </form>
@@ -120,7 +121,16 @@
             </section>
         </div>
     </footer>
-
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
 
 </html>
